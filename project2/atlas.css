@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arima', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: blue;
+}
+
+header .container h2 {
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Arima', cursive;
+    text-decoration: none;
+}
+
+header .container .links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 1.1em;
+    font-family: 'Arima', cursive;
+    cursor: pointer;
+}
+
+header .container .links a:hover {
+    color: rgb(144, 168, 160);
+}
+
+main {
+    background-image: url(images/pexels-nothing-ahead-9494911\ \(1\).jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+main .container div .neighbor:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:768px) {
+    main {
+        background-attachment: scroll;
+    }
+}
